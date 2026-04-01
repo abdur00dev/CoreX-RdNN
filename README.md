@@ -2,9 +2,7 @@
 
 
 
-Please cite the following paper if you are using this code.
 
-Reference: M. Sajid, A. K. Malik and M. Tanveer, "CoreX-RdNN: A Unified Framework for Stable, Balanced, and Structured Shallow & Deep Ensemble Randomized Learning," in Pattern Recognition (revision).
 
 
 
@@ -18,7 +16,7 @@ Please cite the related foundational works if you use this code or build upon th
 
 A demonstration of the proposed **CoreX-RdNN framework** can be executed using the provided scripts on benchmark datasets.
 
-Typical parameter settings used in experiments:
+Demo parameter settings used in experiments:
 
 ```
 C = 1e-5        # Regularization parameter
