@@ -27,25 +27,25 @@ thd = -1        # Correlation threshold
 ### 📂 Description of Files
 
 - `run_corex_rvfl.py`  
-  Main script for running the CoreX-RVFL (full framework), including correlation-aware feature selection and structured learning.
+  Main script for running the proposed **CoreX**-RVFL (Unified framework).
 
 - `run_corex_rvfl_b.py`  
-  Implements the balanced variant for multi-class classification.
+  Implements the proposed **CoreX**-RVFL-B model.
 
 - `run_corex_rvfl_g.py`  
-  Implements the regularized variant using λ-based control.
+  Implements the proposed **CoreX**-RVFL-G model.
 
 - `run_corex_rvfl_s.py`  
-  Implements the structured variant using γ-based constraints.
+  Implements the proposed **CoreX**-RVFL-S.
 
 - `models/`  
-  Contains the core implementation of RVFL-based learning modules.
+  Contains the core implementation of our proposed RVFL-based learning modules.
 
 - `datasets/`  
   Directory for input datasets in `.mat` format.
 
 - `results/`  
-  Stores experimental outputs including accuracy and timing metrics.
+  Stores experimental outputs.
 
 ---
 
@@ -54,8 +54,6 @@ thd = -1        # Correlation threshold
 - The codes are designed for clarity and reproducibility, not optimized for computational efficiency.  
 - Preprocessing steps include:
   - Standardization using `StandardScaler`
-  - Conversion of labels (e.g., `-1 → 0` in certain cases)
-- Feature selection is performed using correlation-based filtering controlled by the threshold parameter (`thd`).
 - Results may slightly vary due to randomness in feature initialization.
 
 ---
